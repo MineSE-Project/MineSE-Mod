@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mine_se",
+  "version": "${version}",
+  "name": "MineSE",
+  "description": "A gRPC API to control Minecraft Client",
+  "authors": [
+    "wellcoming"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wellcoming/MineSE-Mod",
+    "sources": "https://github.com/wellcoming/MineSE-Mod"
+  },
+  "license": "GPL3.0",
+  "icon": "assets/mine_se/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "minese.fabric.MineSEFabric"
+    ],
+    "client": [
+      "minese.fabric.client.MineSEClient"
+    ]
+  },
+  "mixins": [
+    "mine_se.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.2",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
