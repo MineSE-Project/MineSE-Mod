@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-issueTrackerURL = "https://github.com/wellcoming/MineSE-Mod/issues"
+issueTrackerURL = "https://github.com/MineSE-Project/MineSE-Mod/issues"
 license = "GPL3.0"
 
 [[mods]]

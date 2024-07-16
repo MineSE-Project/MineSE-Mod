@@ -8,8 +8,8 @@
     "wellcoming"
   ],
   "contact": {
-    "homepage": "https://github.com/wellcoming/MineSE-Mod",
-    "sources": "https://github.com/wellcoming/MineSE-Mod"
+    "homepage": "https://github.com/MineSE-Project/MineSE-Mod",
+    "sources": "https://github.com/MineSE-Project/MineSE-Mod"
   },
   "license": "GPL3.0",
   "icon": "assets/mine_se/icon.png",
